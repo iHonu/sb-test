@@ -1,4 +1,3 @@
-import React from 'react';
 import { cva } from 'class-variance-authority';
 import { cn } from '@/app/utils/utils';
 import { TagIcon } from './TagIcon';
