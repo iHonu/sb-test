@@ -37,7 +37,7 @@ export const tagVariants = cva('inline-flex items-center gap-1.5 px-2 rounded-md
   },
 });
 
-interface TagProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface TagProps extends React.HTMLAttributes<HTMLDivElement> {
   textSize?: 'small' | 'medium' | 'large';
   textColor?: 'primary' | 'secondary' | 'gray500' | 'gray800';
   uppercase?: boolean;
