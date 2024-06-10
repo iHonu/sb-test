@@ -22,7 +22,7 @@ interface ImageProps {
   className?: string;
 }
 
-export const Image = ({ src, alt, size = 'medium', className, ...props } : ImageProps) => {
+export const Image = ({ src, alt, size, className, ...props } : ImageProps) => {
   return (
     <div className={cn(imageVariants({ size }), className)}>
       <NextImage
