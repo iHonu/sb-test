@@ -35,4 +35,29 @@ export const Default: Story = {
   },
 };
 
+export const Small: Story = {
+  args: {
+    size: 'small',
+    src: '/image1.png',
+    alt: 'Placeholder Image',
+  },
+};
+
+export const Medium: Story = {
+  args: {
+    size: 'medium',
+    src: '/image1.png',
+    alt: 'Placeholder Image',
+  },
+};
+
+export const Large: Story = {
+  args: {
+    size: 'large',
+    src: '/image1.png',
+    alt: 'Placeholder Image',
+  },
+};
+
+
 

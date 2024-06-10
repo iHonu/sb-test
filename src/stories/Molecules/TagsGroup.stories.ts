@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { TagsGroup } from '@/app/ui/components/tags/TagGroup';
 
 const meta: Meta<typeof TagsGroup> = {
-  title: 'Molecules/TagsGroup',
+  title: 'Molecule/TagsGroup',
   component: TagsGroup,
   tags: ['autodocs'],
   parameters: {

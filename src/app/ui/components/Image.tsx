@@ -22,7 +22,7 @@ interface ImageProps {
   className?: string;
 }
 
-export const Image: React.FC<ImageProps> = ({ src, alt, size = 'medium', className, ...props }) => {
+export const Image = ({ src, alt, size = 'medium', className, ...props } : ImageProps) => {
   return (
     <div className={cn(imageVariants({ size }), className)}>
       <NextImage

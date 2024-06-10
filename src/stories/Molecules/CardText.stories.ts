@@ -4,6 +4,7 @@ import { CardText } from '@/app/ui/components/card/CardText';
 const meta: Meta<typeof CardText> = {
   title: 'Molecule/CardText',
   component: CardText,
+  tags: ['autodocs'],
   parameters: {
     layout: 'centered',
   },

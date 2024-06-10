@@ -10,11 +10,11 @@ interface CardTextProps {
 
 export const CardText = ( { author, date, title, description} : CardTextProps) => {
     return (
-        <div className={cn('p-6 w-[362px]')}>
+        <div className={cn('py-6 w-[362px]')}>
       <Typography as="p" className="mb-2" textSize="medium" weight="regular" colorVariant="gray800">
         {author} • {date}
       </Typography>
-      <Typography as="h2" className="mb-4" textSize="large" weight="bold" colorVariant="primary">
+      <Typography as="h2" className="mb-4 hover:text-gray-800" textSize="large" weight="bold" colorVariant="primary">
         {title}
       </Typography>
       <Typography as="p" className="mb-4 line-clamp-3" textSize="medium" weight="regular" colorVariant="gray500">
